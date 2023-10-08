@@ -1,6 +1,10 @@
 'use client';
 import React from 'react';
-import { Splide, SplideSlide } from '@splidejs/react-splide';
+import {
+  Splide,
+  SplideSlide,
+} from '@splidejs/react-splide/dist/js/react-splide';
+import '@splidejs/react-splide/dist/css/themes/splide-default.min.css';
 import '@splidejs/react-splide/css';
 import { topPicks } from '../api/api';
 
