@@ -12,7 +12,6 @@ export default function Home() {
       <TopNavbar />
       <Featured />
       <Delivery />
-      <TopPics />
       <Meal />
       <Categories />
       <NewsLetter />
