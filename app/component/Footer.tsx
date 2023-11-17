@@ -7,17 +7,15 @@ import {
 } from 'react-icons/fa';
 const Footer = () => {
   return (
-    <div className='max-w-[1520px] m-auto px-4 py-2 bg-black'>
+    <div id='footer' className='max-w-[1520px] m-auto px-4 py-2 bg-black'>
       <div className=' py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300'>
         <div>
           <h1 className='w-full text-3xl font-bold text-pink-600'>
             Makan<span className='text-pink-600'>Wir</span>
           </h1>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit
-            voluptate architecto illum debitis dolore vitae provident et, veniam
-            facilis quidem voluptatum, tenetur, culpa ut fuga suscipit
-            laboriosam! Quia, quos harum?
+          Connect with fellow food enthusiasts, exchange culinary secrets, and share your passion for all things delicious. Join our vibrant community and embark on a gastronomic journey together
+
           </p>
           <div className='flex justify-between md:w-[75%] my-6'>
             <FaFacebookSquare size={30} />

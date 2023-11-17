@@ -67,14 +67,14 @@ const TopNavbar = () => {
               size={25}
               className='mr-4 text-white font-semibold bg-black rounded-full'
             />
-            My Akun
+            <a href="#footer">My Akun</a>
           </li>
           <li className=' text-xl py-4 flex '>
             <TbTruckReturn
               size={25}
               className='mr-4 text-white font-semibold bg-black rounded-full'
-            />
-            Delivery
+            /><a href='#deliv'>Delivery</a>
+            
           </li>
           <li className=' text-xl py-4 flex '>
             <MdOutlineFavorite
